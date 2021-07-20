@@ -1,0 +1,93 @@
+/* This site is made responsible from 320px to 1080px using this */
+/* Navbar */
+#navbar{
+    flex-direction: column;
+}
+#navbar img{
+    height: 35px;
+    width: 50px;
+    margin-bottom: 0;
+}
+#navbar ul li a{
+    margin: 0px 8px;
+    font-size: 0.78rem;
+}
+/* home */
+#home{
+    height: 340px;
+    padding: 12px 71px;
+}
+#home::before{
+    height: 460px;
+}
+#home h1{
+    padding: 8px;
+}
+#home p{
+    font-size: 0.85rem;
+}
+#home .btn{
+    font-size: 0.8rem;
+    padding: 4px 11px;
+}
+/* services */
+#services{
+     flex-direction: column;
+     align-items: center;
+}
+#services .box{
+    width: 66%;
+    padding:15px;
+    margin: 1px 0px;
+}
+#services .box img{
+    height: 100px;
+    width: 125px;
+}
+#services p{
+    font-size: 0.85rem;
+}
+/* client section  */
+#client-section h1{
+    padding: 0.75rem;
+}
+#clients{
+    /* clients section k bahar jo v overflow ho ra h wo sb hide ho jaye
+       overflow: hidden; */
+       flex-wrap: wrap;
+       align-items: center;
+}
+.client-item{
+    padding: 30px;
+}
+#clients img{
+    height: 105px;
+    width: 100px;
+}
+/* contacts */
+#contact-box{
+    padding: 10px;
+}
+#contact-box label{
+    font-size: 0.89rem;
+}
+#contact-box form{
+    width: 50%;
+}
+#contact-box input{
+    font-size: 0.75rem;
+}
+#contact-box textarea{
+    font-size: 1.1rem;
+}
+/* footer(copyright-section) */
+footer{
+    font-size: 0.8rem;
+}
+/* Utility class */
+.h-primary{
+    font-size: 1.8rem;
+}
+.h-secondary{
+    font-size: 1.5rem;
+}
